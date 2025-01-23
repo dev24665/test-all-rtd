@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'PDC Documentation'
+copyright = '2025, PDC'
+author = 'PDC'
 
 release = '0.1'
 version = '0.1.0'
