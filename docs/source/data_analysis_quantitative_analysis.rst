@@ -1,0 +1,17 @@
+Biological interpretation of PDC protein expression data through heatmaps
+-------------
+The PDC processes the submitted raw mass spectrometry data through a common data analysis pipeline (CDAP) to produce derived analysis results which can be used to identify patterns of protein and post-translational modifications (PTMs) abundance. On the PDC portal, these results can be visualized as a heatmap, useful for identifying correlated clusters of proteins (or PTMs) and/or samples.
+
+This page provides a listing of all the studies with links to heatmaps for quick access. The heatmaps can also be accessed from the individual study summary pages (e.g., PDC000120). Clicking on a heatmap link automatically loads the quantitative data and displays it through Morpheus, developed at the Broad Institute. The Mopheus site offers documentation, a tutorial, notes on configuration, and other resources.
+
+Data
+------------
+The source data for heatmap visualizations are organized in .gct file format. Gct is essentially a data frame or matrix where the rows correspond to genes (or proteins) and columns correspond to samples (or aliquots.) Additional row (e.g., genes accessions) and column (e.g., clinical attributes) annotations can be embedded in the input file, read by Morpheus. Please note that the proteins (i.e., isoforms) are rolled up to gene level.
+
+For label-free workflows, proteins are quantitated by spectral count and integrated precursor peak areas. For iTRAQ and TMT workflows, peptides are quantitated using the reporter ions, and the values rolled-up to the gene-level. For iTRAQ or TMT experiments each cell represents the normalized log2 ratio, where the numerator is the value for that gene/protein in that aliquot and the denominator is the expression value of whatever control channel was used in the study. Control channels are typically pooled samples from many tumor samples. All isotopic-labeling studies, including PTM studies, have log2 ratios available for visualization. In addition, whole proteome studies have unshared_log2_ratio, where data from shared peptides has been excluded.
+
+Hierarchical clustering
+-------------
+The main purpose of heatmap visualization, in the context of the PDC, is to examine clustering of samples according to protein abundances. When a study heatmap is loaded, the data have not been clustered by either row or column. Clustering can be performed according to the method of your choice by accessing the Tools menu. You will know your data have been clustered if above the column annotations is displayed a dendogram, linking the samples. In addition, the ordering of the columns will have changed according to the clustering calculations. Morpheus allows for a large variety of data analysis methods. If you are unfamiliar with the statistical methods available in the application, you may wish to visit the Morpheus site or consult with bioinformatics colleagues.
+
+In addition to downloading publication-quality images from Morpheus, you may also export the data in .gct format for use with statistical analysis tools and packages (e.g., in R or Python.) Exports are available from the File menu. We encourage you to try the available tools available from the Morpheus menu, including those under View->Options to help you identify potential correlations between annotation variables and the protein expression data.
