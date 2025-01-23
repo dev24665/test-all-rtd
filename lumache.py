@@ -1,5 +1,5 @@
 """
-PDC Documentation.
+PDC Documentation
 """
 
 __version__ = "0.1.0"
