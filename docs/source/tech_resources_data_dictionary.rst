@@ -5,7 +5,7 @@ Explore Data Model
 Administrative
 
 .. list-table:: Administrative
-   :widths: 25 50
+   :widths: 25 25
    :header-rows: 1
 
    * - 
