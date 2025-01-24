@@ -8,9 +8,9 @@ Administrative
    :widths: 25 25 50
    :header-rows: 1
 
-   * - Column 1
+   * - 
      -
-     - Column 3
+     - 
    * - Case
      - 
      - The collection of all data related to a specific subject in the context of a specific project.
