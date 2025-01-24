@@ -5,23 +5,18 @@ Explore Data Model
 Administrative
 
 .. list-table:: Administrative
-   :widths: 25 25 50
+   :widths: 25 50
    :header-rows: 1
 
    * - 
-     -
      - 
    * - Case
-     - 
      - The collection of all data related to a specific subject in the context of a specific project.
    * - Program
-     -
      - A broad framework of goals to be achieved. (`NCIt - C52647 <https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C52647>`_)
    * - Project
-     -
      - Any specifically defined piece of work that is undertaken or attempted to meet a single requirement. (`NCIt - C47885 <https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C47885>`_)
    * - Study
-     - 
      - A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. (`NCIt - C63536 <https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C63536>`_)
 
 
