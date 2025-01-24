@@ -19,22 +19,31 @@ Administrative
    * - Study
      - A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. (`NCIt - C63536 <https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C63536>`_)
 
+.. list-table:: Biological
+   :widths: 25 75
+   :header-rows: 1
 
-Case	The collection of all data related to a specific subject in the context of a specific project.
-Program	A broad framework of goals to be achieved. (NCIt - C52647)
-Project	Any specifically defined piece of work that is undertaken or attempted to meet a single requirement. (NCIt - C47885)
-Study	A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. (NCIt - C63536)
+   * - Column 1
+     - Column 2
+   * - Gene
+     - A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.
+
+.. list-table:: Biospecimen
+   :widths: 25 75
+   :header-rows: 1
+
+   * - 
+     - 
+   * - Aliquot
+     - Pertaining to a portion of the whole; any one of two or more samples of something, of the same volume or weight.
+   * - Analyte
+     - A liquid bulk product produced according to specified lab protocols, from a sample or analyte, intended for further analysis.
+   * - Portion
+     - A physical sub-part of any sample.
+   * - Sample
+     - Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.
 
 
-Biological
-Gene	A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.
-
-
-Biospecimen
-Aliquot	Pertaining to a portion of the whole; any one of two or more samples of something, of the same volume or weight.
-Analyte	A liquid bulk product produced according to specified lab protocols, from a sample or analyte, intended for further analysis.
-Portion	A physical sub-part of any sample.
-Sample	Any material sample taken from a biological entity for testing, diagnostic, propagation, treatment or research purposes, including a sample obtained from a living organism or taken from the biological object after halting of all its life functions. Biospecimen can contain one or more components including but not limited to cellular molecules, cells, tissues, organs, body fluids, embryos, and body excretory products.
 
 
 Clinical
