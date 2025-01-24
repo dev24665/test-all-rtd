@@ -23,8 +23,8 @@ Administrative
    :widths: 25 75
    :header-rows: 1
 
-   * - Column 1
-     - Column 2
+   * - 
+     - 
    * - Gene
      - A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.
 
