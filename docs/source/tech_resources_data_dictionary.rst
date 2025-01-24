@@ -3,6 +3,19 @@ Data Dictionary
 The PDC data dictionary is a centralized metadata repository based on the data model describes the information about the data such as meaning, relationships to other data, origin, usage, and format. Both the data model and the data dictionary will continue to evolve based on the variety of data PDC would ingest from various programs and also the user feedback.
 Explore Data Model
 Administrative
+
++------------------------+------------+----------+----------+
+| Administrative         |            |          |          |
++========================+============+==========+==========+
+| Case                   | The collection of all data related to a specific subject in the context of a specific project. |
++------------------------+------------+----------+----------+
+| Program                | A broad framework of goals to be achieved. (NCIt - C52647) |
++------------------------+------------+---------------------+
+| Project                | Any specifically defined piece of work that is undertaken or attempted to meet a single requirement. (NCIt - C47885) |
++------------------------+------------+---------------------+
+| Study                  | A detailed examination, analysis, or critical inspection of a subject designed to discover facts about it. (NCIt - C63536) |
++------------------------+------------+---------------------+
+
 Case	The collection of all data related to a specific subject in the context of a specific project.
 Program	A broad framework of goals to be achieved. (NCIt - C52647)
 Project	Any specifically defined piece of work that is undertaken or attempted to meet a single requirement. (NCIt - C47885)
